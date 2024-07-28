@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #19100e;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #e895c7;
+    color: #140f0f;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+section#about {
+    background: #fff;
+}
+
+section#projects {
+    background: #eee;
+}
+
+section#contact {
+    background: #fff;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #ee98d4;
+    color: #fff;
+}
